@@ -31,3 +31,35 @@ comments: Just write the notes inside the code for future reference and it did n
 whatever after the # sign is considered as comments.
 Multiline Comments: so this is helpful while writing the paragraphs like sentences 5 or 6 lines of code, this will look nice, for making a multiline comment put notes inside triple single or double quotes like '''your multiline notes''' or """your multiline notes"""
 Escape Sequence Character: just word sounds, it helps to put some kind of special character inside a string ex., \n (new line), \t (tab), etc.
+
+## Day 5: 03/12/2022
+
+**Today's Progress**:
+Lets jump into the Programming fundamentals (Variables and Data types)
+
+1. Variables: What is variables? as the name says anything that varies, so in programming if you want to save a value(data type) for future reference or reusability purpose we called that term a variables
+
+   for ex a = 10
+   so 'a' is a variable name that holds the memory address of the value 10. so 10 store somewhere in the ram.
+
+   Variable is a container that stores the memory address of the particular data type
+
+2. Data Types: the classification of the single value, to know what kind of values we are using in the program, so some classifications are provided by the python language. let see each classifications
+
+   In real world we have numbers, various types of numbers, in python also we have numbers
+
+   Number:
+
+   a. Int: Int specifies the whole numbers like(0,1,20,-20,3)
+
+   b. float: Float specifies the value with the decimal points (1.5, 20.00, -3.6)
+
+   c. complex specifies real and imagenary numbers (8+2j)
+
+   After we have characters, word
+
+   a. str: it's a string type often we say collection of characters, well string is also considered a data structure if it store single character then its called data type or if it store more than single character its called data structure
+
+   Boolean
+
+   a.bool: Bool specifies the boolean field that stores only two values like True or False, Yes or No, 0 or 1 its based on boolean algebra, majorly boolean fields helps to anticipating the flow of the programme.
