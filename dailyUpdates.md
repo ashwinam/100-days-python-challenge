@@ -63,3 +63,34 @@ Lets jump into the Programming fundamentals (Variables and Data types)
    Boolean
 
    a.bool: Bool specifies the boolean field that stores only two values like True or False, Yes or No, 0 or 1 its based on boolean algebra, majorly boolean fields helps to anticipating the flow of the programme.
+
+## Day 6: 04/12/2022
+
+**Today's Progress**:
+Lets learn operators
+
+what is operator?
+Operator is simply the symbol that helps to perform some operations on datatypes and it return a single down a single value
+
+- There are 7 types of operators
+
+1. Arithmetic Operator
+2. Relational/Comparison Operator
+3. logical operator
+4. Assignment Operator
+5. Bitwise Operator
+6. Identity Operator
+7. Membership Operator
+
+Arithmetic Operator:
+It simply helps to perform arithmetic operations like addition subtraction, multiplication, division etc
+
+      |Symbol         | Example|
+      |---------------|--------|
+      |Addition(+)    | 15+7   |
+      |subtraction    | 15-7   |
+      |division       | 15/7   |
+      |modulo         | 15%7   |
+      |multiplication | 5*6    |
+      |exponention    | 3**3   |
+      |floor division | 15//7  |
