@@ -94,3 +94,16 @@ It simply helps to perform arithmetic operations like addition subtraction, mult
       |multiplication | 5*6    |
       |exponention    | 3**3   |
       |floor division | 15//7  |
+
+Relational/Comparision Operator:
+As the Name shows it is compare the two or more data types with each other and it return the boolean value like True or False.
+
+      |Symbol                | Example|
+      |----------------------|--------|
+      |greater than (>)      | 5 > 3  |
+      |less than (<)         | 7 < 15 |
+      |greater than equal(>=)| 6 >= 6 |
+      |less than equal(<=)   | 15<=7  |
+      |equal (==)            | 5==5   |
+      |Not Equal (!=)        | 2!=3   |
+
