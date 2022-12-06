@@ -95,6 +95,10 @@ It simply helps to perform arithmetic operations like addition subtraction, mult
       |exponention    | 3**3   |
       |floor division | 15//7  |
 
+<!-- 05/12/2022 -->
+
+## Day 7: 05/12/2022
+
 Relational/Comparision Operator:
 As the Name shows it is compare the two or more data types with each other and it return the boolean value like True or False.
 
@@ -107,3 +111,48 @@ As the Name shows it is compare the two or more data types with each other and i
       |equal (==)            | 5==5   |
       |Not Equal (!=)        | 2!=3   |
 
+<!-- 06/12/2022 -->
+
+## Day 8: 06/12/2022
+
+Logical Operator:
+Here we are checking two or more conditions, which we check if two conditions are true then true or either one condition true then true.
+
+      |Symbol      |      Example     |
+      |------------|------------------|
+      |and         | 5 > 3 and 2 == 2 |
+      |or          |7 < 15 or 5>10    |
+      |not         |not True not False|
+
+Assignment Operator: this operator symbol helps to assign value to the variable, right hand side value assign to the left hand side.
+
+Ex. name = 'ashwin' so , ashwin name will stored in left hand side of name variable
+
+Bitwise Operator:
+In Python, bitwise operators are used to performing bitwise calculations on integers. The integers are first converted into binary and then operations are performed on each bit or corresponding pair of bits, hence the name bitwise operators.
+
+SO thats why I avoided it.
+
+Identity Operator:
+is and is not are the identity operator as the name says it checks the identity means it check if the objects memory address same or not.
+
+Membership Operator:
+if the object is exists in the sequence of objects or in data structure, its called membership operator its check using 'in' and 'not in'.
+
+This are the 7 types of operators.
+
+### Typecasting in python
+
+changing one datatype to another is called type casting
+
+int(), float(), str(), ord() etc
+
+There are two way to do the typecasting.
+
+1. Explicit Typecasting: Explicitly tell the python to changing data type to another
+
+For ex a = '1' --> int(a) = it converts into integer.
+
+2. Implicit Typecasting: here python will take care of the type casting in certain cases to avoid data loss
+
+For ex a = 12/3 --> it will automatically return 4.0 i.e in a float data type
