@@ -156,3 +156,12 @@ For ex a = '1' --> int(a) = it converts into integer.
 2. Implicit Typecasting: here python will take care of the type casting in certain cases to avoid data loss
 
 For ex a = 12/3 --> it will automatically return 4.0 i.e in a float data type
+
+## Day 9: 07/12/2022
+
+**Today's Progress**:
+Lets learn input() function in python
+
+Simply means ask the user to type your choice in the programme, it is workable in console.
+
+disclaimer: its return a string object, if you give number also its return a string only, means data type in a string.
