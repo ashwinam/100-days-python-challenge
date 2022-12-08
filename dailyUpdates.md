@@ -165,3 +165,35 @@ Lets learn input() function in python
 Simply means ask the user to type your choice in the programme, it is workable in console.
 
 disclaimer: its return a string object, if you give number also its return a string only, means data type in a string.
+
+## Day 10: 08/12/2022
+
+**Today's Progress**:
+Lets dive into the string
+
+What are the strings?
+strings is just a sequence of characters and its an data structure in python, that contains more than two characters and its a sequential data structure means its store value as it is.
+
+we can create a string by enclosing a character in single quotes as well as double quotes in python, both considered the same thing.
+
+It's an immutable data structure means modification is not going to happen here
+
+Strings is an sequential data structure so it support sequence operations :
+
+1. Indexing
+2. slicing
+3. adding
+4. multiplying
+5. checking for membership
+6. len
+7. min
+8. max
+
+In python we have multi line string also by enclosing in a triple quotes
+
+'''< multiline string >'''
+"""< multiline string >"""
+Accessing the string:
+
+1. using indexing (mechanism for accessing each data structure by providing there positions in a integer format, its starts from 0.)
+2. using loops specially for loopss
