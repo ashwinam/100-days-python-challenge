@@ -197,3 +197,21 @@ Accessing the string:
 
 1. using indexing (mechanism for accessing each data structure by providing there positions in a integer format, its starts from 0.)
 2. using loops specially for loopss
+
+## Day 11: 09/12/2022
+
+**Today's Progress**:
+Lets gone through slicing in strings (part of it.)
+
+so string is a combination of characters, so using slicing we can extract some character for ex, 'ashwin' its a 6 letter of word but i want first 3 character, using slicing we can achieve it.
+
+name = 'ashwin'
+print(name[0:3]) # indexing start from 0 and slicing second position number is always excluded
+so it return ash.
+
+**There are negeative slicing also**
+same example, if i want 'in' from 'ashwin' name using negative slicing
+
+name[-2:-1] --> name[len(name) - 2: len(name) -1] == name[4:5]
+
+len is a function in python that helps get the string length.
