@@ -794,3 +794,9 @@ Output:
 ```
 Number is between 11-20
 ```
+
+## Day 14: 12/12/2022
+
+**Today's Progress**:
+
+Exercise: based on time greet the user using time module.
