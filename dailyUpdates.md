@@ -800,3 +800,34 @@ Number is between 11-20
 **Today's Progress**:
 
 Exercise: based on time greet the user using time module.
+
+## Day 15: 13/12/2022
+
+**Today's Progress**:
+Lets look into the match case newly launched in python3.10
+
+### **Match Case**
+
+So match case is released in python3.10
+
+It similarly a switch cases in c / c++
+
+A match statement will compare a given variable’s value to different shapes, also referred to as the pattern. The main idea is to keep on comparing the variable with all the present patterns until it fits into one.
+
+The match case consists of three main entities :
+
+1. The match keyword
+2. One or more case clauses
+3. Expression for each case
+
+The case clause consists of a pattern to be matched to the variable, a condition to be evaluated if the pattern matches, and a set of statements to be executed if the pattern matches.
+
+## Syntax:
+
+```python
+match variable_name:
+            case ‘pattern1’ : //statement1
+            case ‘pattern2’ : //statement2
+            …
+            case ‘pattern n’ : //statement n
+```
