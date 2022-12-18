@@ -1020,7 +1020,7 @@ Enter a positive number: -1
 
 This loop uses True as its formal condition. This trick turns the loop into an infinite loop. Before the conditional statement, the loop runs all the required processing and updates the breaking condition. If this condition evaluates to true, then the break statement breaks out of the loop, and the program execution continues its normal path.
 
-## Day 17: 16/12/2022
+## Day 18: 16/12/2022
 
 **Today's Progress**:
 Break and continue
@@ -1081,13 +1081,13 @@ for i in [2,3,4,6,8,0]:
 
 ```
 
-## Day 18: 17/12/2022
+## Day 19: 17/12/2022
 
 **Today's Progress**:
 Functions in Python
 
 What are the functions?
-The functions are the reusable code or logic that helps to avoid the code duplicacy or rewritting the same logic again and again.
+The functions are the reusable code or logic that helps to avoid the code redundency or rewritting the same logic again and again.
 
 **Types of functions**
 
@@ -1134,4 +1134,155 @@ Output:
 
 ```
 Hello, Sam Wilson
+```
+
+## Day 20: 18/12/2022
+
+**Today's Progress**:
+Function parameters and arguments
+
+Parameters are used when we define the function using def and in paranthesis we tell the function that in future i am passing that much inputs for processing.
+
+Arguments are the used on the time of calling the function.
+
+**Types of Arguments**
+
+1. Positional Arguments (required arguments)
+2. Default arguments
+3. keyword arguments(named arguments)
+
+### Required arguments:
+
+In case we don’t pass the arguments with a key = value syntax, then it is necessary to pass the arguments in the correct positional order and the number of arguments passed should match with actual function definition.
+
+Example 1: when number of arguments passed does not match to the actual function definition.
+
+```python
+def name(fname, mname, lname):
+    print("Hello,", fname, mname, lname)
+
+name("Peter", "Quill")
+```
+
+Output:
+
+```
+name("Peter", "Quill")\
+TypeError: name() missing 1 required positional argument: 'lname'
+```
+
+Example 2: when number of arguments passed matches to the actual function definition.
+
+```python
+def name(fname, mname, lname):
+    print("Hello,", fname, mname, lname)
+
+name("Peter", "Ego", "Quill")
+```
+
+Output:
+
+```
+Hello, Peter Ego Quill
+```
+
+### Default arguments:
+
+We can provide a default value while creating a function. This way the function assumes a default value even if a value is not provided in the function call for that argument.
+
+Example:
+
+```python
+def name(fname, mname = "Jhon", lname = "Whatson"):
+    print("Hello,", fname, mname, lname)
+
+name("Amy")
+```
+
+Output:
+
+```
+Hello, Amy Jhon Whatson
+```
+
+### Keyword arguments:
+
+We can provide arguments with key = value, this way the interpreter recognizes the arguments by the parameter name. Hence, the the order in which the arguments are passed does not matter.
+
+Example:
+
+```python
+def name(fname, mname, lname):
+    print("Hello,", fname, mname, lname)
+
+name(mname = "Peter", lname = "Wesker", fname = "Jade")
+```
+
+Output:
+
+```
+Hello, Jade Peter Wesker
+```
+
+### Variable-length arguments:
+
+Sometimes we may need to pass more arguments than those defined in the actual function. This can be done using variable-length arguments.
+
+There are two ways to achieve this:
+
+#### Arbitrary Arguments:
+
+While creating a function, pass a \* before the parameter name while defining the function. The function accesses the arguments by processing them in the form of tuple.
+
+Example:
+
+```python
+def name(*name):
+    print("Hello,", name[0], name[1], name[2])
+
+name("James", "Buchanan", "Barnes")
+```
+
+Output:
+
+```
+Hello, James Buchanan Barnes
+```
+
+#### Keyword Arbitrary Arguments:
+
+While creating a function, pass a \* before the parameter name while defining the function. The function accesses the arguments by processing them in the form of dictionary.
+
+Example:
+
+```python
+def name(**name):
+    print("Hello,", name["fname"], name["mname"], name["lname"])
+
+name(mname = "Buchanan", lname = "Barnes", fname = "James")
+```
+
+Output:
+
+```
+Hello, James Buchanan Barnes
+```
+
+# return Statement
+
+The return statement is used to return the value of the expression back to the calling function.
+
+Example:
+
+```python
+def name(fname, mname, lname):
+    return "Hello, " + fname + " " + mname + " " + lname
+
+print(name("James", "Buchanan", "Barnes"))
+```
+
+Output:
+
+```
+Hello, James Buchanan Barnes
 ```
