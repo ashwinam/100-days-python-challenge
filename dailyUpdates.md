@@ -2105,3 +2105,9 @@ print('First occurrence of 3 is', res)
 #### Output
 
 3
+
+## Day 25: 23/12/2022
+
+**Today's Progress**:
+
+Lets do fizzbuzz
