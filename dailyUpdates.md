@@ -2111,3 +2111,9 @@ print('First occurrence of 3 is', res)
 **Today's Progress**:
 
 Lets do fizzbuzz
+
+## Day 27: 24/12/2022
+
+**Today's Progress**:
+
+LEts build kbc
