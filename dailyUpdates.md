@@ -2347,3 +2347,44 @@ print("Factorial: ",factorial(num))
 number:  7
 Factorial:  5040
 ```
+
+## Day 30: 28/12/2022
+
+**Today's Progress**:
+
+Sets in Python
+
+sets is a inbuilt unordered data structure that store the unique objects i.e., no duplicates
+
+Ex.
+
+```
+info = {"Carla", 19, False, 5.9, 19}
+print(info)
+```
+
+output:
+
+```
+{False, 19, 5.9, 'Carla'}
+```
+
+Here you can not access the object in sets by using indexing like in list and tuple, due to unorder in nature you can't do indexing.
+
+_Using a For loop_<br>
+You can access items of set using a for loop.
+
+```
+info = {"Carla", 19, False, 5.9}
+for item in info:
+    print(item)
+```
+
+output:
+
+```
+False
+Carla
+19
+5.9
+```
